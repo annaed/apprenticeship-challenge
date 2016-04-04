@@ -1,0 +1,220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-addons-update',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /Users/annadurham/Downloads/apprenticeship-challenge/package.json
+5 warn package.json kanban_app@0.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt/package.json
+7 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt-container/package.json
+8 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt-utils/package.json
+9 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-core/package.json
+10 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-loader/package.json
+11 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-es2015/package.json
+12 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-react/package.json
+13 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-react-hmre/package.json
+14 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-survivejs-kanban/package.json
+15 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/css-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/node-uuid/package.json
+17 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/npm-install-webpack-plugin/package.json
+18 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react/package.json
+19 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update/package.json
+20 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-bootstrap/package.json
+21 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dnd/package.json
+22 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dnd-html5-backend/package.json
+23 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dom/package.json
+24 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/style-loader/package.json
+25 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack/package.json
+26 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack-dev-server/package.json
+27 verbose installManyTop reading scoped package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack-merge/package.json
+28 info package.json alt-utils@1.0.0 No repository field.
+29 info package.json alt-utils@1.0.0 No README data
+30 info package.json node-uuid@1.4.7 No license field.
+31 verbose readDependencies loading dependencies from /Users/annadurham/Downloads/apprenticeship-challenge/package.json
+32 verbose install react-addons-update is installed as 0.14.8
+33 silly cache add args [ 'react-addons-update', null ]
+34 verbose cache add spec react-addons-update
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'react-addons-update',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'react-addons-update',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: 'latest',
+35 silly cache add   type: 'tag' }
+36 silly addNamed react-addons-update@latest
+37 verbose addNamed "latest" is being treated as a dist-tag for react-addons-update
+38 info addNameTag [ 'react-addons-update', 'latest' ]
+39 silly mapToRegistry name react-addons-update
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/react-addons-update
+43 verbose addNameTag registry:https://registry.npmjs.org/react-addons-update not in flight; fetching
+44 verbose request uri https://registry.npmjs.org/react-addons-update
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 9:13:14 PM
+47 verbose request id 2b92972d371c603e
+48 verbose etag "5IPLURCGC4C25I7BKCU4GV7ZI"
+49 http request GET https://registry.npmjs.org/react-addons-update
+50 http 304 https://registry.npmjs.org/react-addons-update
+51 verbose headers { date: 'Mon, 04 Apr 2016 01:13:14 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   etag: '"5IPLURCGC4C25I7BKCU4GV7ZI"',
+51 verbose headers   age: '233',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-dfw1836-DFW',
+51 verbose headers   'x-cache': 'HIT',
+51 verbose headers   'x-cache-hits': '1',
+51 verbose headers   'x-timer': 'S1459732394.404384,VS0,VE0',
+51 verbose headers   vary: 'Accept' }
+52 silly get cb [ 304,
+52 silly get   { date: 'Mon, 04 Apr 2016 01:13:14 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     etag: '"5IPLURCGC4C25I7BKCU4GV7ZI"',
+52 silly get     age: '233',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-dfw1836-DFW',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '1',
+52 silly get     'x-timer': 'S1459732394.404384,VS0,VE0',
+52 silly get     vary: 'Accept' } ]
+53 verbose etag https://registry.npmjs.org/react-addons-update from cache
+54 verbose get saving react-addons-update to /Users/annadurham/.npm/registry.npmjs.org/react-addons-update/.cache.json
+55 verbose correctMkdir /Users/annadurham/.npm correctMkdir not in flight; initializing
+56 silly addNameTag next cb for react-addons-update with tag latest
+57 silly addNamed react-addons-update@0.14.8
+58 verbose addNamed "0.14.8" is a plain semver version for react-addons-update
+59 silly cache afterAdd react-addons-update@0.14.8
+60 verbose afterAdd /Users/annadurham/.npm/react-addons-update/0.14.8/package/package.json not in flight; writing
+61 verbose correctMkdir /Users/annadurham/.npm correctMkdir not in flight; initializing
+62 verbose afterAdd /Users/annadurham/.npm/react-addons-update/0.14.8/package/package.json written
+63 silly install resolved [ { name: 'react-addons-update',
+63 silly install resolved     version: '0.14.8',
+63 silly install resolved     main: 'index.js',
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+63 silly install resolved     keywords: [ 'react', 'react-addon' ],
+63 silly install resolved     license: 'BSD-3-Clause',
+63 silly install resolved     dependencies: {},
+63 silly install resolved     peerDependencies: { react: '^0.14.8' },
+63 silly install resolved     description: 'This package provides the React updates add-on.',
+63 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+63 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+63 silly install resolved     _id: 'react-addons-update@0.14.8',
+63 silly install resolved     _shasum: '486f1fb71e09ef8ad09c0e95fbe59d173782fe1a',
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-update/-/react-addons-update-0.14.8.tgz',
+63 silly install resolved     _from: 'react-addons-update@latest',
+63 silly install resolved     scripts: {},
+63 silly install resolved     _npmVersion: '2.14.7',
+63 silly install resolved     _nodeVersion: '4.2.1',
+63 silly install resolved     _npmUser: { name: 'gaearon', email: 'dan.abramov@gmail.com' },
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '486f1fb71e09ef8ad09c0e95fbe59d173782fe1a',
+63 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-update/-/react-addons-update-0.14.8.tgz' },
+63 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+63 silly install resolved     _npmOperationalInternal:
+63 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+63 silly install resolved        tmp: 'tmp/react-addons-update-0.14.8.tgz_1459268475120_0.8253944886382669' },
+63 silly install resolved     directories: {},
+63 silly install resolved     readme: 'ERROR: No README data found!' } ]
+64 info install react-addons-update@0.14.8 into /Users/annadurham/Downloads/apprenticeship-challenge
+65 info installOne react-addons-update@0.14.8
+66 verbose installOne of react-addons-update to /Users/annadurham/Downloads/apprenticeship-challenge not in flight; installing
+67 verbose correctMkdir /Users/annadurham/.npm/_locks correctMkdir not in flight; initializing
+68 verbose lock using /Users/annadurham/.npm/_locks/react-addons-update-a354fba0f7fb23e6.lock for /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+69 silly install write writing react-addons-update 0.14.8 to /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+70 verbose unbuild node_modules/react-addons-update
+71 info preuninstall react-addons-update@0.14.8
+72 info uninstall react-addons-update@0.14.8
+73 verbose unbuild rmStuff react-addons-update@0.14.8 from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules
+74 info postuninstall react-addons-update@0.14.8
+75 silly gentlyRm /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update is being purged from base /Users/annadurham/Downloads/apprenticeship-challenge
+76 verbose gentlyRm don't care about contents; nuking /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+77 silly vacuum-fs purging /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+78 silly vacuum-fs quitting because other entries in /Users/annadurham/Downloads/apprenticeship-challenge/node_modules
+79 verbose tar unpack /Users/annadurham/.npm/react-addons-update/0.14.8/package.tgz
+80 verbose tar unpacking to /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+81 silly gentlyRm /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update is being purged
+82 verbose gentlyRm don't care about contents; nuking /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry LICENSE
+87 silly gunzTarPerm extractEntry index.js
+88 silly gunzTarPerm extractEntry PATENTS
+89 verbose write writing to /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update/package.json
+90 info preinstall react-addons-update@0.14.8
+91 verbose readDependencies loading dependencies from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update/package.json
+92 silly prepareForInstallMany adding react@^0.14.8 from react-addons-update peerDependencies
+93 warn peerDependencies The peer dependency react@^0.14.8 included from react-addons-update will no
+94 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+95 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+96 verbose readDependencies loading dependencies from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update/package.json
+97 silly install resolved []
+98 verbose about to build /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+99 info build /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+100 info linkStuff react-addons-update@0.14.8
+101 silly linkStuff react-addons-update@0.14.8 has /Users/annadurham/Downloads/apprenticeship-challenge/node_modules as its parent node_modules
+102 verbose linkBins react-addons-update@0.14.8
+103 verbose linkMans react-addons-update@0.14.8
+104 verbose rebuildBundles react-addons-update@0.14.8
+105 info install react-addons-update@0.14.8
+106 info postinstall react-addons-update@0.14.8
+107 verbose readDependencies loading dependencies from /Users/annadurham/Downloads/apprenticeship-challenge/package.json
+108 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt/package.json
+109 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt-container/package.json
+110 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/alt-utils/package.json
+111 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-core/package.json
+112 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-loader/package.json
+113 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-es2015/package.json
+114 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-react/package.json
+115 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-react-hmre/package.json
+116 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/babel-preset-survivejs-kanban/package.json
+117 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/css-loader/package.json
+118 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/node-uuid/package.json
+119 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/npm-install-webpack-plugin/package.json
+120 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react/package.json
+121 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update/package.json
+122 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-bootstrap/package.json
+123 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dnd/package.json
+124 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dnd-html5-backend/package.json
+125 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-dom/package.json
+126 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/style-loader/package.json
+127 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack/package.json
+128 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack-dev-server/package.json
+129 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/webpack-merge/package.json
+130 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/.bin/uuid/package.json
+131 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/.bin/webpack/package.json
+132 verbose targetResolver reading package data from /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/.bin/webpack-dev-server/package.json
+133 verbose already installed skipping react@^0.14.8 /Users/annadurham/Downloads/apprenticeship-challenge
+134 silly install resolved []
+135 verbose unlock done using /Users/annadurham/.npm/_locks/react-addons-update-a354fba0f7fb23e6.lock for /Users/annadurham/Downloads/apprenticeship-challenge/node_modules/react-addons-update
+136 verbose validateInstall loading /Users/annadurham/Downloads/apprenticeship-challenge/package.json for validation
+137 verbose stack Error: The package react@0.14.7 does not satisfy its siblings' peerDependencies requirements!
+137 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+137 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+137 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+137 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+137 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+137 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+137 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+137 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+137 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+137 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+138 verbose cwd /Users/annadurham/Downloads/apprenticeship-challenge
+139 error Darwin 14.5.0
+140 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-addons-update" "--save"
+141 error node v4.4.0
+142 error npm  v2.14.20
+143 error code EPEERINVALID
+144 error peerinvalid The package react@0.14.7 does not satisfy its siblings' peerDependencies requirements!
+144 error peerinvalid Peer react-bootstrap@0.28.5 wants react@>=0.14.0
+144 error peerinvalid Peer react-dnd@2.1.3 wants react@^0.14.0
+144 error peerinvalid Peer react-dom@0.14.7 wants react@^0.14.7
+144 error peerinvalid Peer react-addons-update@0.14.8 wants react@^0.14.8
+145 verbose exit [ 1, true ]
